@@ -2,6 +2,9 @@
 
 class Computer:
 
+    # this type of method is automatically called 
+    # this method is called everytime for each object
+
     def __init__(self) :
         print('hiiii')
 
