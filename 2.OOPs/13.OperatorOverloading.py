@@ -20,11 +20,9 @@ class student:
         else:
             return False
         
-    def __str__(self):
-        return self.m1, self.m2
     # def __str__(self):
-    #     return '{} {}'.format(self.m1, self.m2)
-
+    #     return self.m1, self.m2
+      
 
 s1 = student(45,34)
 s2 = student(23,43)
@@ -40,6 +38,7 @@ else:
     print("s2 wins")
 
 
-print(s1.__str__)
-# print(s2)
-# print(s3)
+# print(s1.__str__())
+
+print(s2)
+print(s3)
