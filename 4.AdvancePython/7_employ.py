@@ -1,7 +1,8 @@
 import logging
+import os
 
 LOG_FORMAT = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-logging.basicConfig(filename='EmpLog.log', filemode='w',format=LOG_FORMAT, level=logging.INFO)
+logging.basicConfig(filename=f'{os.getcwd()}\EmpLog.log', filemode='a',format=LOG_FORMAT, level=logging.INFO)
  
 class Employee:
     def __init__(self,empid,name,salary):
@@ -18,6 +19,6 @@ class Employee:
         return'{}.@gmail.com'.format(self.name)
 
 e1 = Employee(101, 'Scott', 3000)
-e2 = Employee(101, 'Scott', 3000)
-e3 = Employee(101, 'Scott', 3000)
-e4 = Employee(101, 'Scott', 3000)
+e2 = Employee(102, 'Fredy', 4000)
+e3 = Employee(103, 'Sohan', 3500)
+e4 = Employee(104, 'MOhan', 3300)

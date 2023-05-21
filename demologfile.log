@@ -1,0 +1,10 @@
+2023-05-19 11:50:38,509 - DEBUG - DemoLog - debug log statement 
+2023-05-19 11:50:38,510 - INFO - DemoLog - info log statement 
+2023-05-19 11:50:38,510 - WARNING - DemoLog - warning log statement 
+2023-05-19 11:50:38,511 - ERROR - DemoLog - error log statement 
+2023-05-19 11:50:38,511 - CRITICAL - DemoLog - critical log statement 
+05/19/2023 11:51:10 AM - DEBUG - DemoLog - debug log statement 
+05/19/2023 11:51:10 AM - INFO - DemoLog - info log statement 
+05/19/2023 11:51:10 AM - WARNING - DemoLog - warning log statement 
+05/19/2023 11:51:10 AM - ERROR - DemoLog - error log statement 
+05/19/2023 11:51:10 AM - CRITICAL - DemoLog - critical log statement 
